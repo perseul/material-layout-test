@@ -5,7 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { CdkModule } from './cdk.module';
-import { TextMaskModule } from '../directives/angular2TextMask';
+import { TextMaskModule } from 'angular2-text-mask';
 
 @NgModule({
     imports: [
