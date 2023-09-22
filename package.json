@@ -23,6 +23,7 @@
     "@angular/router": "~16.1.4",
     "angular-font-awesome": "^3.1.2",
     "angular2-text-mask": "^9.0.0",
+    "chart.js": "^4.4.0",
     "rxjs": "~7.8.1",
     "tslib": "^2.6.0",
     "zone.js": "~0.13.1"

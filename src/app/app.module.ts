@@ -15,7 +15,8 @@ import { MatCardModule } from '@angular/material/card'
 import { MatListModule } from '@angular/material/list';
 import { FiltersComponent } from './components/template/filters/filters.component';
 import { HomeComponent } from './views/home/home.component';
-import { ProductCrudComponent } from './views/product-crud/product-crud.component'
+import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { PieChartComponent } from './components/template/charts/pie-chart/pie-chart.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     NavComponent,
     FiltersComponent,
     HomeComponent,
-    ProductCrudComponent
+    ProductCrudComponent,
+    PieChartComponent
   ],
   imports: [
     BrowserModule,

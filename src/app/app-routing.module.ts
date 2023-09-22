@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { PieChartComponent } from './components/template/charts/pie-chart/pie-chart.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,10 @@ const routes: Routes = [
   }, {
     path: "products",
     component: ProductCrudComponent
+  },
+  {
+    path: "pie-chart",
+    component: PieChartComponent
   }
 ];
 
