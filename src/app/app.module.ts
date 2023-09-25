@@ -17,6 +17,9 @@ import { FiltersComponent } from './components/template/filters/filters.componen
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { PieChartComponent } from './components/template/charts/pie-chart/pie-chart.component'
+
+import { CustomMaterialModule } from './core/material.module';
+import { GridComponent } from './components/template/grid/grid.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +29,8 @@ import { PieChartComponent } from './components/template/charts/pie-chart/pie-ch
     FiltersComponent,
     HomeComponent,
     ProductCrudComponent,
-    PieChartComponent
+    PieChartComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +39,8 @@ import { PieChartComponent } from './components/template/charts/pie-chart/pie-ch
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    CustomMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,27 @@
+<p>grid works!</p>
+
+<mat-grid-list cols="4" rowHeight="300px">
+    <mat-grid-tile [colspan]="2">
+        item 1 + item 2
+
+        <div>
+
+        </div>
+    </mat-grid-tile>
+    <mat-grid-tile [rowspan]="2" [style.background]="'red'">
+        item 3 + item 7
+    </mat-grid-tile>
+    <mat-grid-tile [style.background]="'yellow'">
+        item 4
+    </mat-grid-tile>
+    <mat-grid-tile [style.background]="'green'">
+        item 5
+    </mat-grid-tile>
+    <mat-grid-tile [style.background]="'orange'">
+        item 6
+    </mat-grid-tile>
+</mat-grid-list>
+
+<!-- <mat-grid-list cols="2" rowHeight="fit" style="height: 200px" gutterSize="100px">
+    <mat-grid-tile>Tile 1</mat-grid-tile>
+</mat-grid-list> -->
