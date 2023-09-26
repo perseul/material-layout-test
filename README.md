@@ -4,24 +4,27 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Execute `ng serve` para iniciar o app, navegue até `http://localhost:4200/`. o aplicativo vai atualizar automaticamente conforme voce alterar algum arquivo.
 
-## Code scaffolding
+## Componentes 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Header
 
-## Build
+![22](https://github.com/perseul/material-layout-test/assets/53841377/3409d948-fdd5-4eeb-afe4-79a795efed98)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Footer
 
-## Running unit tests
+![1](https://github.com/perseul/material-layout-test/assets/53841377/c202a885-c247-49e3-8cff-b1a4bc49eb2e)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Nav Bar
 
-## Running end-to-end tests
+![5](https://github.com/perseul/material-layout-test/assets/53841377/f860a6fc-0c10-49fa-9798-95cca1bb4d0d)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Chart
 
-## Further help
+![3](https://github.com/perseul/material-layout-test/assets/53841377/6d9c616c-2caf-4ff6-aea1-e0a737447edd)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Grid
+
+![4](https://github.com/perseul/material-layout-test/assets/53841377/c78c45ea-0c93-45df-90ca-86b3263bcb98)
+
